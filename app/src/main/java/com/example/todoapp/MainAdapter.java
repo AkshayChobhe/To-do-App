@@ -28,8 +28,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     AlertDialog.Builder builder;
 
     //create constructor
-
-
     public MainAdapter(List<MainData> dataList, Activity context) {
         this.dataList = dataList;
         this.context = context;
@@ -40,7 +38,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        //initialize view
+        //initialize view or // Inflate the layout for a single row
         View view= LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.list_row_main,parent,false);
 
@@ -54,7 +52,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         MainData data=dataList.get(position);
         //init db
         database=RoomDB.getInstance(context);
-        //set text in textview
+        //set text in textview or // Bind data to the UI elements
         holder.textView.setText(data.getText());
 
         holder.btEdit.setOnClickListener(new View.OnClickListener() {

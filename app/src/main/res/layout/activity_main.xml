@@ -8,17 +8,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- EditText for entering a new task -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edit_text"
         android:hint="Enter your todo work"
         android:padding="12dp"/>
+
+    <!-- LinearLayout to hold the "Add" and "Reset" buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="8dp">
+
+        <!-- "Add" Button -->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,6 +32,8 @@
             android:layout_marginRight="5dp"
             android:text="Add"
             />
+
+        <!-- "Reset" Button -->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,6 +43,7 @@
 
 
     </LinearLayout>
+    <!-- RecyclerView to display the list of tasks -->
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

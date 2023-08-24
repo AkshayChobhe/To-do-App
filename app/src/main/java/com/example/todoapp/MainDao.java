@@ -11,24 +11,23 @@ import static androidx.room.OnConflictStrategy.REPLACE;
 
 @Dao
 public interface MainDao {
-    //insert query
-
+    //insert query or The DAO interface defines the database operations.
     @Insert(onConflict = REPLACE)
     void insert(MainData mainData);
 
-    //delete
+    //delete a single task
     @Delete
     void delete(MainData mainData);
 
-    //delete all
+    //delete all tasks
     @Delete
     void reset(List<MainData> mainData);
 
-    //update
+    //update a task's text
     @Query("UPDATE Table_name SET text =:sText WHERE ID = :sID")
     void upate(int sID,String sText);
 
-    //get all data
+    //get all data(texts)
     @Query("SELECT * FROM table_name")
     List<MainData> getAll();
 }

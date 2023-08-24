@@ -6,6 +6,7 @@
     android:layout_margin="8dp"
     android:padding="10dp"
     >
+    <!-- EditText for updating the task -->
 
     <EditText
         android:layout_width="match_parent"
@@ -15,6 +16,8 @@
         android:padding="12dp"
         android:lines="4"
         android:gravity="center"/>
+    <!-- Update button -->
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

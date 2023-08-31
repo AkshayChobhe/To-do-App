@@ -11,8 +11,8 @@
     <td>Added Task</td>
   </tr>
   <tr>    
-    <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/8_framed.png?raw=true" alt="project-screenshot" width="220" height="400"></td>
-    <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/1_framed.png?raw=true" alt="project-screenshot" width="220" height="400"></td>
+    <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/8_framed.png?raw=true" alt="project-screenshot" width="220" height="350"></td>
+    <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/1_framed.png?raw=true" alt="project-screenshot" width="220" height="300"></td>
     <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/3_framed.png?raw=true" alt="project-screenshot" width="220" height="400"></td>
     <td><img src="https://github.com/AkshayChobhe/To-do-App/blob/main/app/src/main/res/drawable/2_framed.png?raw=true" alt="project-screenshot" width="220" height="400"></td>
   </tr>

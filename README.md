@@ -103,6 +103,6 @@ Technologies used in the project:
 If you have specific questions or need further assistance, you can reach out to us via:
 
 - Email: [chobheakshay30@gmail.com](mailto:chobheakshay30@gmail.com)
-- LinkedIn: [Akshay Chobhe](https://www.linkedin.com/in/akshay-chobhe/)
+- LinkedIn: [Akshay Chobhe](https://www.linkedin.com/in/akshay-chobhe-989004220/)
 
 We appreciate your interest in the project and your feedback. We're committed to addressing issues promptly and helping you have a smooth experience with the app.
